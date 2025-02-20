@@ -1,0 +1,14 @@
+.home-container{
+    background-image: "https://t3.ftcdn.net/jpg/06/36/53/20/360_F_636532003_ZKAk6GpJQuVEQAYOtHW4eCQBmBXwENo0.jpg";
+}
+.welcome-msg{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 40px;
+}
+
+.home-intro{
+    font-size: 17px;
+    width: 800px;
+    margin: 50px 40px;
+}

@@ -1,0 +1,16 @@
+.add-transaction-form{
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-button-container{
+  margin: 0 30px;
+}

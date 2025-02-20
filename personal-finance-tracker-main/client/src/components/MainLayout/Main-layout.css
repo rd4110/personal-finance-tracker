@@ -1,0 +1,72 @@
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.logo p {
+  margin-left: 70px;
+  margin-top: -40px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #2f1a65;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin-layout {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 7% 93%;
+  min-height: 100vh;
+}
+
+.admin-layout .sidebar {
+  background-color: #93aed4;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.admin-layout nav {
+  background-color: #93aed4;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.admin-layout .container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.menu-container {
+  margin: 10px;
+}
+.menu-item {
+  margin: 10px;
+  display: block;
+  text-decoration: none;
+  padding: 8px 4px 8px 10px;
+  color: black;
+}
+
+.menu-item :active{
+  background-color: #ffffff;
+  color: white;
+  border: 2px solid #008CBA;
+  /* z-index: 2; */
+}
+.menu-head {
+  color: #e23838;
+  font-weight: bolder;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.heading {
+  color: #2f1a65;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-solid{
+  margin: 6px;
+}

@@ -1,0 +1,16 @@
+.department-container {
+  margin-top: 10x;
+}
+
+.department-btn-container {
+  display: flex;
+  justify-content: end;
+  margin: 20px 0;
+}
+
+.table-image {
+  width: 80px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 5px;
+}

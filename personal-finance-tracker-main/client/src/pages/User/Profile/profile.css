@@ -1,0 +1,11 @@
+.welcome-msg{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 40px;
+}
+
+.profile-intro{
+    font-size: 17px;
+    width: 800px;
+    margin: 50px 40px;
+}
